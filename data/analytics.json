@@ -1,0 +1,310 @@
+{
+  "timestamp": "2026-02-09 10:19:03",
+  "overall_occupancy": 4.2,
+  "floors": [
+    {
+      "floor": 0,
+      "name": "Ground Floor",
+      "avg_usage": 3.3,
+      "max_usage": 9,
+      "heatmap": [
+        {
+          "slot_id": "F0-R1S1",
+          "usage_count": 9,
+          "intensity": 100.0,
+          "is_occupied": true
+        },
+        {
+          "slot_id": "F0-R1S2",
+          "usage_count": 2,
+          "intensity": 22.2,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R1S3",
+          "usage_count": 5,
+          "intensity": 55.6,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R1S4",
+          "usage_count": 7,
+          "intensity": 77.8,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R1S5",
+          "usage_count": 5,
+          "intensity": 55.6,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R1S6",
+          "usage_count": 3,
+          "intensity": 33.3,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R2S1",
+          "usage_count": 8,
+          "intensity": 88.9,
+          "is_occupied": true
+        },
+        {
+          "slot_id": "F0-R2S2",
+          "usage_count": 6,
+          "intensity": 66.7,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R2S3",
+          "usage_count": 5,
+          "intensity": 55.6,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R2S4",
+          "usage_count": 7,
+          "intensity": 77.8,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R2S5",
+          "usage_count": 3,
+          "intensity": 33.3,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R2S6",
+          "usage_count": 2,
+          "intensity": 22.2,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R3S1",
+          "usage_count": 4,
+          "intensity": 44.4,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R3S2",
+          "usage_count": 2,
+          "intensity": 22.2,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R3S3",
+          "usage_count": 1,
+          "intensity": 11.1,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R3S4",
+          "usage_count": 1,
+          "intensity": 11.1,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R3S5",
+          "usage_count": 0,
+          "intensity": 0.0,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R3S6",
+          "usage_count": 0,
+          "intensity": 0.0,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R4S1",
+          "usage_count": 3,
+          "intensity": 33.3,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R4S2",
+          "usage_count": 2,
+          "intensity": 22.2,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R4S3",
+          "usage_count": 2,
+          "intensity": 22.2,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R4S4",
+          "usage_count": 1,
+          "intensity": 11.1,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R4S5",
+          "usage_count": 1,
+          "intensity": 11.1,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F0-R4S6",
+          "usage_count": 1,
+          "intensity": 11.1,
+          "is_occupied": false
+        }
+      ]
+    },
+    {
+      "floor": 1,
+      "name": "First Floor",
+      "avg_usage": 1.4,
+      "max_usage": 3,
+      "heatmap": [
+        {
+          "slot_id": "F1-R1S1",
+          "usage_count": 3,
+          "intensity": 100.0,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R1S2",
+          "usage_count": 2,
+          "intensity": 66.7,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R1S3",
+          "usage_count": 2,
+          "intensity": 66.7,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R1S4",
+          "usage_count": 2,
+          "intensity": 66.7,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R1S5",
+          "usage_count": 1,
+          "intensity": 33.3,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R1S6",
+          "usage_count": 1,
+          "intensity": 33.3,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R2S1",
+          "usage_count": 3,
+          "intensity": 100.0,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R2S2",
+          "usage_count": 2,
+          "intensity": 66.7,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R2S3",
+          "usage_count": 2,
+          "intensity": 66.7,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R2S4",
+          "usage_count": 2,
+          "intensity": 66.7,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R2S5",
+          "usage_count": 1,
+          "intensity": 33.3,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R2S6",
+          "usage_count": 1,
+          "intensity": 33.3,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R3S1",
+          "usage_count": 3,
+          "intensity": 100.0,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R3S2",
+          "usage_count": 2,
+          "intensity": 66.7,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R3S3",
+          "usage_count": 1,
+          "intensity": 33.3,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R3S4",
+          "usage_count": 1,
+          "intensity": 33.3,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R3S5",
+          "usage_count": 1,
+          "intensity": 33.3,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R3S6",
+          "usage_count": 0,
+          "intensity": 0.0,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R4S1",
+          "usage_count": 1,
+          "intensity": 33.3,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R4S2",
+          "usage_count": 1,
+          "intensity": 33.3,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R4S3",
+          "usage_count": 1,
+          "intensity": 33.3,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R4S4",
+          "usage_count": 1,
+          "intensity": 33.3,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R4S5",
+          "usage_count": 0,
+          "intensity": 0.0,
+          "is_occupied": false
+        },
+        {
+          "slot_id": "F1-R4S6",
+          "usage_count": 0,
+          "intensity": 0.0,
+          "is_occupied": false
+        }
+      ]
+    }
+  ]
+}

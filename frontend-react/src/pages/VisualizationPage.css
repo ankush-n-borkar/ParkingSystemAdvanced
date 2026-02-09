@@ -1,0 +1,245 @@
+.visualization-page {
+  min-height: 100vh;
+  background: #f9fafb;
+  padding: 20px;
+}
+
+.viz-header {
+  background: white;
+  padding: 20px 32px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: #f3f4f6;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.back-btn:hover {
+  background: #e5e7eb;
+  transform: translateX(-4px);
+}
+
+.viz-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #1f2937;
+}
+
+.viz-title h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.floor-selector {
+  display: flex;
+  gap: 8px;
+}
+
+.floor-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  border: 2px solid #e5e7eb;
+  background: white;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.floor-icon {
+  font-size: 20px;
+}
+
+.floor-count {
+  padding: 4px 8px;
+  background: #f3f4f6;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.floor-btn:hover {
+  border-color: #6366f1;
+  color: #6366f1;
+}
+
+.floor-btn.active {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  color: white;
+  border-color: #6366f1;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+
+.floor-btn.active .floor-count {
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+/* UPDATED LAYOUT - Single Column */
+.viz-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.canvas-container {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas-container canvas {
+  cursor: pointer;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* UPDATED SIDEBAR - Horizontal Layout at Bottom */
+.viz-sidebar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.slot-info-panel {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.slot-info-panel h3 {
+  margin: 0 0 16px 0;
+  font-size: 16px;
+  color: #1f2937;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #f3f4f6;
+  font-size: 13px;
+}
+
+.info-row:last-of-type {
+  border-bottom: none;
+}
+
+.info-row span {
+  color: #6b7280;
+}
+
+.info-row strong {
+  color: #1f2937;
+  font-size: 15px;
+}
+
+.path-info {
+  margin-top: 12px;
+  padding: 12px;
+  background: #fef3c7;
+  border-radius: 8px;
+}
+
+.path-info p {
+  margin: 0;
+  font-size: 12px;
+  color: #92400e;
+  line-height: 1.5;
+}
+
+.legend {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.legend h3 {
+  margin: 0 0 14px 0;
+  font-size: 15px;
+  color: #1f2937;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #4b5563;
+}
+
+.legend-item:last-child {
+  margin-bottom: 0;
+}
+
+.legend-color {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  flex-shrink: 0;
+}
+
+.legend-color.green {
+  background: linear-gradient(135deg, #10b981, #059669);
+}
+
+.legend-color.red {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+}
+
+.legend-color.purple {
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+}
+
+.legend-color.yellow {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+}
+
+.tip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  background: #eff6ff;
+  border-radius: 12px;
+  font-size: 13px;
+  color: #1e40af;
+}
+
+@media (max-width: 1024px) {
+  .viz-sidebar {
+    grid-template-columns: 1fr;
+  }
+}

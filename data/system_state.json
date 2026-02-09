@@ -1,0 +1,252 @@
+{
+  "timestamp": "2026-01-30 17:54:56",
+  "total_floors": 2,
+  "total_slots": 25,
+  "total_occupied": 4,
+  "occupancy_rate": 16.0,
+  "floors": [
+    {
+      "floor_number": 0,
+      "name": "Ground Floor",
+      "total_slots": 15,
+      "occupied_slots": 4,
+      "occupancy_rate": 26.7,
+      "slots": [
+        {
+          "id": "F0-A1",
+          "type": "standard",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 2.0,
+          "y": 2.0
+        },
+        {
+          "id": "F0-A2",
+          "type": "standard",
+          "is_occupied": true,
+          "vehicle_number": "1",
+          "usage_count": 1,
+          "x": 3.0,
+          "y": 2.0
+        },
+        {
+          "id": "F0-A3",
+          "type": "standard",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 4.0,
+          "y": 2.0
+        },
+        {
+          "id": "F0-A4",
+          "type": "standard",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 5.0,
+          "y": 2.0
+        },
+        {
+          "id": "F0-A5",
+          "type": "compact",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 6.0,
+          "y": 2.0
+        },
+        {
+          "id": "F0-A6",
+          "type": "compact",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 7.0,
+          "y": 2.0
+        },
+        {
+          "id": "F0-A7",
+          "type": "standard",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 8.0,
+          "y": 2.0
+        },
+        {
+          "id": "F0-A8",
+          "type": "standard",
+          "is_occupied": true,
+          "vehicle_number": "2",
+          "usage_count": 1,
+          "x": 9.0,
+          "y": 2.0
+        },
+        {
+          "id": "F0-B1",
+          "type": "large",
+          "is_occupied": true,
+          "vehicle_number": "4",
+          "usage_count": 1,
+          "x": 2.0,
+          "y": 5.0
+        },
+        {
+          "id": "F0-B2",
+          "type": "standard",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 3.0,
+          "y": 5.0
+        },
+        {
+          "id": "F0-B3",
+          "type": "standard",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 4.0,
+          "y": 5.0
+        },
+        {
+          "id": "F0-B4",
+          "type": "disabled",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 5.0,
+          "y": 5.0
+        },
+        {
+          "id": "F0-B5",
+          "type": "standard",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 6.0,
+          "y": 5.0
+        },
+        {
+          "id": "F0-B6",
+          "type": "standard",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 7.0,
+          "y": 5.0
+        },
+        {
+          "id": "F0-B7",
+          "type": "large",
+          "is_occupied": true,
+          "vehicle_number": "23",
+          "usage_count": 1,
+          "x": 8.0,
+          "y": 5.0
+        }
+      ]
+    },
+    {
+      "floor_number": 1,
+      "name": "First Floor",
+      "total_slots": 10,
+      "occupied_slots": 0,
+      "occupancy_rate": 0.0,
+      "slots": [
+        {
+          "id": "F1-C1",
+          "type": "standard",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 3.0,
+          "y": 2.0
+        },
+        {
+          "id": "F1-C2",
+          "type": "standard",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 4.0,
+          "y": 2.0
+        },
+        {
+          "id": "F1-C3",
+          "type": "compact",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 5.0,
+          "y": 2.0
+        },
+        {
+          "id": "F1-C4",
+          "type": "standard",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 6.0,
+          "y": 2.0
+        },
+        {
+          "id": "F1-C5",
+          "type": "standard",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 7.0,
+          "y": 2.0
+        },
+        {
+          "id": "F1-D1",
+          "type": "disabled",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 3.0,
+          "y": 5.0
+        },
+        {
+          "id": "F1-D2",
+          "type": "standard",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 4.0,
+          "y": 5.0
+        },
+        {
+          "id": "F1-D3",
+          "type": "large",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 5.0,
+          "y": 5.0
+        },
+        {
+          "id": "F1-D4",
+          "type": "standard",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 6.0,
+          "y": 5.0
+        },
+        {
+          "id": "F1-D5",
+          "type": "compact",
+          "is_occupied": false,
+          "vehicle_number": "",
+          "usage_count": 0,
+          "x": 7.0,
+          "y": 5.0
+        }
+      ]
+    }
+  ]
+}

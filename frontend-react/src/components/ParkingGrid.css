@@ -1,0 +1,154 @@
+.parking-grid-container {
+  margin-top: 20px;
+}
+
+.floor-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #eee;
+}
+
+.floor-info h2 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.floor-stats {
+  display: flex;
+  gap: 20px;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.parking-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.parking-slot {
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.parking-slot:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.parking-slot.free {
+  border-color: #4caf50;
+  background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
+}
+
+.parking-slot.occupied {
+  border-color: #f44336;
+  background: linear-gradient(135deg, #ffebee 0%, #fce4ec 100%);
+}
+
+.parking-slot.compact {
+  border-left-width: 5px;
+  border-left-color: #ff9800;
+}
+
+.parking-slot.large {
+  border-left-width: 5px;
+  border-left-color: #2196f3;
+}
+
+.parking-slot.disabled {
+  border-left-width: 5px;
+  border-left-color: #9c27b0;
+}
+
+.slot-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.slot-id {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.slot-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.slot-status.free {
+  background: #4caf50;
+  color: white;
+}
+
+.slot-status.occupied {
+  background: #f44336;
+  color: white;
+}
+
+.slot-type {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.vehicle-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(0,0,0,0.05);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.usage-count {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.legend-color {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+}
+
+.legend-color.compact { background: #ff9800; }
+.legend-color.standard { background: #4caf50; }
+.legend-color.large { background: #2196f3; }
+.legend-color.disabled { background: #9c27b0; }
